@@ -49,7 +49,7 @@ import Services from './Home/Services';
 // import Form from './Form/WorkShop_form'
 // import WorkShopMore from './WorkShopMore';
 // import Aboutus from "./Aboutus/Aboutus";
-import Home from './Home/Homesite';
+import Homesite from './Home/Homesite';
 import AboutUs from "./About/AboutUs";
 import Nav from "./Navbar/Nav";
 import Footer from "./Footer/Footer";
@@ -71,7 +71,7 @@ function App() {
       <BrowserRouter>
         <Nav/>
         <Switch>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={Homesite}/>
             <Route path="/homeblog" component={Homeblog}/>
             <Route path="/about" component={AboutUs}/>
             <Route exact path="/service" component={Service}/>
@@ -83,12 +83,12 @@ function App() {
           <Route exact path="/services" component={Services} />
           <Route exact path="/order3d" component={Interface} />
           {/* <Route exact path="/invoice/:_id" component={Invoice} /> */}
-          <Route exact path="/checkyouorder/:_id" component={Tiket} />
+          {/* <Route exact path="/checkyouorder/:_id" component={Tiket} />
           <Route exact path="/checkyouorder1/:_id" component={Tiket1} />
-          <Route exact path="/checkyouorder2/:_id" component={Tiket2} />
+          <Route exact path="/checkyouorder2/:_id" component={Tiket2} /> */}
           <Route exact path="/3d_design" component={AskFor3DFile} />
           <Route exact path="/askforrepair" component={Askforrepair} />
-          <Route exact path="/enroll" component={WorkShopRegistration} />
+          {/* <Route exact path="/enroll" component={WorkShopRegistration} />
           <Route path="/dashboard" component={dashboard} />
           <Route path="/signin" component={Signin} />
           <Route path="/error" component={Error} />
@@ -101,7 +101,7 @@ function App() {
           <Route path="/signupverify" component={Signupverification} />
           <Route path="/dashboardhome" component={DashboardHome} />
           <Route path={"/syj"} component={StartYourJourney} />
-          <Route path={"/tell"} component={FinalIntro} />
+          <Route path={"/tell"} component={FinalIntro} /> */}
           {/*
           <Route exact path="/reg/:UniqueCode" component={Checkid} />
           <Route path="/signin" component={Signin}/>
