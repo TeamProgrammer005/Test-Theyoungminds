@@ -1,0 +1,67 @@
+[
+    {
+        "title": "The Young Minds Garage",
+        "name": "TPU FILAMENT ",
+        "price": 2500,
+        "slider": 1,
+        "img": "products/trendProduct 1.webp",
+        "link":"https://store.theyoungminds.org/products/wol3d-tpu"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "PLA EXOTIC FILAMENT",
+        "price": 9000,
+        "slider": 1,
+        "img": "products/trendProduct 2.webp",
+        "link":"https://store.theyoungminds.org/products/wol3d-pla-exotic"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "RESIN-CASTABLE",
+        "price": 2400,
+        "slider": 1,
+        "img": "products/trendProduct 3.webp",
+        "link":"https://store.theyoungminds.org/products/resin-castable?variant=42412564250866"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "CREALITY-WIRELESS CAM",
+        "price": 6000,
+        "slider": 2,
+        "img": "products/trendProduct 4.webp",
+        "link":"https://store.theyoungminds.org/products/creality-wireless-cam"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "WOL3D-Ganesha",
+        "price": 1400,
+        "slider": 2,
+        "img": "products/trendProduct 5.webp",
+        "link":"https://store.theyoungminds.org/products/wol3d-ganesha"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "Brass Nozzle -3.0mm",
+        "price": 1299,
+        "slider": 2,
+        "img": "products/trendProduct 6.webp",
+        "link":"https://store.theyoungminds.org/products/wol3d-3-0mm"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "CREALITY-LASER KIT",
+        "price": 5900,
+        "slider": 3,
+        "img": "products/trendProduct 7.webp",
+        "link":"https://store.theyoungminds.org/products/creality-laser-kit"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "CREALITY-DRY BOX",
+        "price": 4200,
+        "slider": 3,
+        "img": "products/trendProduct 8.webp",
+        "link":"https://store.theyoungminds.org/products/creality-dry-box"
+    }
+
+]

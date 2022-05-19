@@ -1,0 +1,258 @@
+.startjourney{
+    margin-left: 8%;
+    text-align: left;
+}
+.sjhome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: -8%;
+}
+.sjhomenum{
+    color: rgba(236, 240, 243, 1);
+    background-color: rgba(25, 53, 102, 1);
+    border: 50%;
+    border-radius: 500px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sjhomenuminner{
+    background: #EBECF0;
+    box-shadow: inset -2px -2px 6px #ffffff, inset 2px 2px 3px rgb(151 167 195 / 50%);
+    border-radius: 40px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(151, 167, 195, 0.5);
+}
+.sjhomenumouter{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ECF0F3;
+    box-shadow: -4px -4px 8px #ffffff, 4px 4px 8px rgb(24 71 152 / 48%);
+    border-radius: 500px;
+}
+.sjline{
+    width: 20px;
+    height: 2px;
+    background-color: rgba(151, 167, 195, 0.5);
+}
+.sjtopitems{
+    display: flex;
+    align-items: center;
+}
+.sjheader{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: #193566;
+    margin-top: 8%;
+}
+.sjcategory{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    margin-top: 8%;
+    align-items: baseline;
+}
+
+.sjcategryname{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 19px;
+    color: #193566;
+}
+.sjcategoryselect{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #97A7C3;
+}
+.startjourney .inputtext{
+    margin-left: 0%;
+}
+.startjourney .inputtext input{
+    width: 100% !important;
+}
+.sjcardhead1{
+    margin-left: -3%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 130px;
+}
+.sjcard{
+    background: #ECF0F3;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 8px;
+    width: 156px;
+    height: 140px;
+    margin: 10px;
+}
+.sjcardtext{
+    margin: 10px 10px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sjtextname{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 87.4%;
+    color: #193566;
+}
+.sjtextcourse{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: #97A7C3;
+}
+.sjfooter{
+    position: fixed;
+    bottom: 0px;
+    margin-left: -8%;
+    background-color: #ecf0f3;
+}
+.sjdivider{
+    width: 100vw;
+    height: 5px;
+    background: linear-gradient(312.9deg, rgba(255, 255, 255, 0.3) 4.49%, rgba(233, 240, 247, 0.3) 95.45%), #ECF0F3;
+    box-shadow: -2px -2px 4px rgba(255, 255, 255, 0.7), 2px 2px 4px rgba(138, 155, 189, 0.2);
+}
+.sjfootercontent{
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #193566;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.sjskip{
+    text-decoration: underline;
+}
+.sjnext{
+    width: 106px;
+    height: 34px;
+    background: #ECF0F3;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tellus{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #8598B9;
+    margin-top: 30px;
+}
+.whour{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #193566;
+}
+.finalintrocards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -8%;
+}
+.finalintrocardlearner,.finalintrocardeducator,.finalintrocardparent,.finalintrocardinstitute,
+.finalintrocardlearnerselect,.finalintrocardeducatorselect,.finalintrocardparentselect,.finalintrocardinstituteselect
+{
+    width: 330px;
+    height: 91px;
+    background: #ECF0F3;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+.finalintrocardimage{
+    position: absolute;
+    top: -41px;
+}
+.finalintrocardtype{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 87.4%;
+    color: #193566;
+}
+.finalintrocardticklearner,.finalintrocardtickparent,.finalintrocardtickeducator,.finalintrocardtickinstitute,
+.finalintrocardticklearnerselect,.finalintrocardtickparentselect,.finalintrocardtickeducatorselect,.finalintrocardtickinstituteselect
+{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    background: #ECF0F3;
+    box-shadow: inset -2px -2px 4px #FFFFFF, inset 2px 2px 4px rgba(151, 167, 195, 0.5);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.finalintrocardticklearnerselect,.finalintrocardtickparentselect,.finalintrocardtickeducatorselect,.finalintrocardtickinstituteselect
+{
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(116, 222, 210, 0.5);
+    border-radius: 50px;
+    background: #74DED2;
+}
+.selecteditem,.additem{
+    width: 14px;
+    height: 14px;
+    background: #74DED2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.additem{
+    background-color: #193566;
+}
+.finalintrocardtickSelected{
+    background: #74DED2;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(116, 222, 210, 0.5);
+    border-radius: 50px;
+}

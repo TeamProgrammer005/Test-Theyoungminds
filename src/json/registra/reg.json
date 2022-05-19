@@ -1,0 +1,52 @@
+
+    [
+        {
+            "_id": "61d597623b0af6c254acd384",
+            "name": "3D Printing Beginners' Guide",
+            "description": "A Brief Introduction to 3D Printing",
+            "locations": [
+              { 
+                 "id":"unique", 
+                 "name": "Silver Spring",
+                 "startDateTime":"2022-01-20T03:30:00.000Z",
+                 "endDateTime":"2022-01-20T05:30:00.000Z",
+                 "isActive": true
+    
+                }
+ 
+            ],
+   
+            "isActive": true,
+            "productType": "workshop",
+
+            "createdAt": "2022-01-05T13:04:34.959Z",
+            "createdBy":"",
+            "updatedAt": "2022-01-05T13:04:34.959Z",
+            "updateBy":""
+        },
+        {
+            "_id": "61d597623b0af6c254acd384",
+            "name": "3D Printing Beginners' Guide",
+            "description": "A Brief Introduction to 3D Printing",
+            "locations": [
+              { 
+                 "id":"unique", 
+                 "name": "Silver Spring", 
+                 "startDateTime":"2022-01-20T03:30:00.000Z",
+                 "endDateTime":"2022-01-20T05:30:00.000Z",
+                 "isActive": true
+           
+                }
+ 
+            ],
+   
+            "isActive": true,
+            "productType": "workshop",
+
+            "createdAt": "2022-01-05T13:04:34.959Z",
+            "createdBy":"",
+            "updatedAt": "2022-01-05T13:04:34.959Z",
+            "updateBy":""
+        }
+      
+    ]

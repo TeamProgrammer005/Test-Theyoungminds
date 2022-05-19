@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe name="viewstl" id="vs_iframe" src="https://www.viewstl.com/?embedded&bgcolor=gray&color=white&noborder=yes&orientation=bottom" style="height:100%; width:calc(100% + 12px); position:absolute; top:-2px; left:-8px;"></iframe>
+
+</body>
+    <script>
+	var vstl = document.getElementById("vs_iframe"); //view_stl object
+	var shade = '#DDDDDD';
+	
+	// STL file viewer - input file
+	function load_local_file(f) { vstl.contentWindow.postMessage({msg_type:'load', file:f}, '*'); }
+	
+	// STL file viewer - function handler
+	vstl.onload = function() {
+		
+		vstl.contentWindow.postMessage({ msg_type: "get_info" }, "*");
+		window.onmessage = function(e) {
+			if (e.origin == "https://www.viewstl.com" && e.data.msg_type) {
+				if (e.data.msg_type == "info") {
+					vstl.contentWindow.postMessage( {msg_type:'set_bgcolor', value:'#DEE3ED'}, '*');
+					vstl.contentWindow.postMessage( {msg_type:'set_color', value:shade}, '*');
+					
+					input_size = false; x_axis = e.data.x; y_axis = e.data.y; z_axis = e.data.z; area = e.data.area;
+					shape_vol = e.data.volume / 1000;
+					update_axis();
+				}
+			}
+		}
+	}
+	
+    </script>
+</html>

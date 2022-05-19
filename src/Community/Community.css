@@ -1,0 +1,247 @@
+.communityDOM{
+    max-width: 1200px;
+}
+.discoverSteam h4, .steamCommunity h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 20px;
+    line-height: 93.9%;
+    color: #193566;
+    margin-top: 30px;
+}
+.discoverSteam h2, .steamCommunity h2{
+    position: relative;
+    font-weight: 600;
+    font-size: 50px;
+    display: inline;
+    line-height: 110%;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #193566;
+}
+.discoverSteam h2::before, .steamCommunity h2::before{
+    content: "";
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+    height: 50%;
+    transform: skewX(20deg);
+    width: 50%;
+    border-radius: 10px;
+    background: #97A7C3;
+    opacity: 0.2;
+    z-index: 0;
+}
+.discoverSteam .steamDesc, .steamCommunity .steamCategoryDOM{
+    display: flex;
+    justify-content: space-between;
+}
+.discoverSteam .steamDesc{
+    align-items: center;
+}
+.steamCategoryDOM .steamCategories12{
+    width: 500px;
+}
+.discoverSteam p{
+    font-size: 20px;
+    color: #193566;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.steamCommunity .steamCategoryDOM p{
+    font-size: 20px;
+    color: #193566;
+    line-height: 30px;
+    width: 50vw;
+    margin: 20px;
+    /* padding-right: 40px; */
+}
+.steamDesc img{
+    width: 200px;
+    height: 200px;
+}
+.steamDesc .blankedLine{
+    width: 1px;
+    height: 200px;
+    background: #97A7C3;
+}
+.steamCategories12 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.steamCategories12 ul a{
+    text-decoration: none;
+}
+.steamCategories12 ul li{
+    font-size: 16px;
+    list-style: none;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: 1px solid #97A7C3;
+    color: #193566;
+    border-radius: 20px;
+}
+.dropdownCategory{
+    margin: 20px;
+    display: flex;
+}
+ #dropdownCat{
+     background: white;
+     color: #193566;
+     outline: none;
+     border: 1px solid #97A7C3;
+     width: 20vw;
+     min-width: 250px;
+     max-width: 250px;
+     padding: 10px 20px;
+     border-radius: 12px;
+     margin-right: 20px;
+}
+.dropdownCategory button{
+    border: none;
+    outline: none;
+    background: #193566;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 18px;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+}
+@media screen and (max-width: 900px){
+    .steamDesc img{
+        width: 150px;
+        height: 150px;
+    }
+    .steamCategoryDOM .steamCategories12{
+        width: auto;
+    }
+    .discoverSteam h2, .steamCommunity h2{
+        font-size: 34px;
+    }
+    .discoverSteam h4, .steamCommunity h4{
+        font-size: 16px;
+    }
+    .steamCommunity .steamCategoryDOM p {
+        margin-top: 20px;
+        min-width: 500px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .steamCategories12 ul li{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 800px){
+    .steamCommunity .steamCategoryDOM p{
+        margin-right: 0px;
+        min-width: 400px;
+    }
+    .discoverSteam p{
+        font-size: 16px;
+    }
+    .steamDesc img{
+     margin-left: 5px;
+    }
+    .dropdownCategory{
+        flex-direction: column;
+    }
+    .dropdownCategory button{
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 700px){
+    .steamCommunity .steamCategoryDOM p {
+        min-width: 300px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .discoverSteam h2, .steamCommunity h2{
+        font-size: 28px;
+    }
+    .discoverSteam h4, .steamCommunity h4{
+        font-size: 13px;
+    }
+    .steamCategories12 ul li{
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .steamDesc .blankedLine{
+       height: 150px;
+    }
+    .dropdownCategory{
+        margin: 10px;
+    }
+    .discoverSteam .steamDesc{
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .steamCommunity .steamCategoryDOM p {
+        min-width: none;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .steamDesc .blankedLine {
+        height: 100px;
+    }
+    .steamDesc img{
+        width: 100px;
+        height: 100px;
+    }
+    #dropdownCat{
+        padding: 7px 14px;
+        font-size: 12px;
+        min-width: 150px;
+    }
+    .dropdownCategory button{
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    .discoverSteam p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .steamCommunity .steamCategoryDOM p{
+        font-size: 12px;
+        min-width: 250px;
+        line-height: 18px;
+    }
+    .discoverSteam h2, .steamCommunity h2{
+        font-size: 28px;
+    }
+    .discoverSteam h4, .steamCommunity h4{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px){
+    .discoverSteam h2, .steamCommunity h2{
+        font-size: 20px;
+    }
+    .discoverSteam h4, .steamCommunity h4{
+        font-size: 12px;
+    }
+    .steamDesc img{
+        width: 80px;
+        height: 80px;
+    }
+    .steamCommunity .steamCategoryDOM {
+        flex-direction: column;
+    }
+    .steamCommunity .steamCategoryDOM p{
+        min-width: 90vw;
+    }
+}
+@media screen and (max-width: 400px){
+    .steamDesc img{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 380px){
+    #dropdownCat {
+        padding: 7px 14px;
+        font-size: 11px;
+        min-width: 130px;
+    }
+}

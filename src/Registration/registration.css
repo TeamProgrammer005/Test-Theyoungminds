@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+                
+
+.ymimage{
+    width: 50px;
+   margin: 0%;
+ }
+ .form-group{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .inpPM1{
+     background-color: rgb(234 234 234) !important;
+     margin-bottom: 20px;
+     border-radius: 35px !important;
+     padding-left: 30px !important;
+     box-shadow: inset rgb(0 0 0 / 23%) 0.3rem 0.3rem 0.5rem 3px, inset rgba(255, 255, 255, 0.774) -0.4rem -0.6rem 0.6rem 2.4px;
+     text-shadow: 2px 2px #fff;
+     width: 95% !important;
+     height: 50px;
+ }
+ .rheader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     position: absolute;
+     top: 94.7%;
+     max-height: 2%;
+     color: #193566;
+ }
+ .workshopform{
+     min-width: 360px;
+ 
+ }
+ .conForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conForm1{
+    width: 70%;
+    max-width: 300px;
+     margin: 2%;
+     display: contents;
+  }
+ .conForm2{
+    box-shadow:rgba(0, 0, 0, 0.276) 0.39rem 0.3rem 0.2rem 0px, rgb(255, 255, 255) -0.3rem -0.3rem 1rem 5px;
+    padding: 3% 10%;
+    border-radius: 20px;
+    max-width: 350px !important;
+    justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+  }
+ .putItcenter{
+     padding-top: 18%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .inpPM2{
+     padding: 0px 50px 0px 50px;
+    background-color: #ecf0f3 !important;
+     border-radius: 35px !important;
+     min-width: 340px !important;
+     height: 50px;
+     box-shadow: rgb(0 0 0 / 14%) 0.3rem 0.3rem 2rem 2px, rgb(255 255 255) -0.6rem -0.6rem 0.5rem 2px
+ }
+ .optioninput{
+     border-radius: 35px !important;
+    
+ }
+ .buttoon{
+    border-radius: 35px !important;
+    margin-top: 50px;
+    background-color: #97A7C3 !important;
+    color: #193566 !important;
+    border: 4px solid #ECF0F3 !important;
+    width: 100px;
+ }
+ select{
+     border-radius: 35px !important;
+ }   
+ .error{
+    width: 100%;
+    color: red;
+    display: flex;
+    align-items: flex-start !important;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+ }
+ .leftdiv{
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Gotham-Medium, Gotham;
+    color: #193566;
+    margin-top: 20px;
+ }
+ .headstyle{
+    font-size: 70px !important;
+    font-family: Montserrat-Regular, Montserrat;
+    letter-spacing: -0.02em;
+    padding: 0px;
+    color: #193566;
+ }
+ .namestyle{
+    font-weight: 500;
+    font-size: 35px;
+    font-family: Gontserrat-Medium, Montserrat;
+    letter-spacing: 0.068em;
+ }
+ .phonetext{
+     margin-bottom: 0rem !important;
+     padding: 0% !important;
+     display: flex;
+     align-items: flex-start;
+ }
+ .toplabel2{
+     padding-left: 20px;
+ }
+ @media (min-width:750px) {
+     .putItcenter{
+         padding-top: 8%;
+     }
+ }
+ @media  (max-height:409px) {
+    .rheader{
+       position: absolute;
+      top: 183% !important;
+    }
+    .outertick{
+        top: 126%  !important;
+    }}
+ @media  (max-height:639px) {
+    .rheader{
+       position: absolute;
+      top: 113% !important;
+    }
+    .outertick{
+        top: 106%  !important;
+    }
+}
+@media (max-width:358px) and (max-height:639px) {
+    .rheader{
+       position: absolute;
+      top: 129% !important;
+    }
+    .outertick{
+        top: 91%   !important;
+    }
+}
+@media (max-width:380px) {
+    .error{
+        margin-left: 0px !important;
+    }
+    .toplabel2{
+        padding-left: 0px !important;
+    }
+}
+@media (max-width:358px) and (max-height:459px) {
+    .rheader{
+       position: absolute;
+      top: 189% !important;
+    }
+    .outertick{
+        top: 91%   !important;
+    }
+}
+
+@media  (max-height:450px) {
+    .rheader{
+       position: absolute;
+       top:  183%!important;
+    }
+    .outertick{
+        top: 136%  !important;
+    }
+}
+
+@media (min-width:450px) and (max-height:600px) {
+    .outertick{
+        display:flex;
+        flex-direction: row;
+        bottom: -2% !important;
+    }
+    .putItcenter {
+        padding-top: 15%;
+    }
+    .rheader{
+        top: 113%!important;
+    }
+}
+
+
+.rowDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ 
+ .qrname{
+    font-size: 24px;
+    font-family: BradleyHandITCTTBold, Bradley Hand ITC TT;
+    color: #193566;
+ }
+ .qrlocation{
+    font-family: Gotham-Medium, Gotham;
+    font-weight: 500;
+    font-size: 12px;
+    color: #193566;
+    margin: 5px;
+ }
+ .sicon{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow:rgba(0, 0, 0, 0.276) 0.39rem 0.3rem 0.2rem 0px, rgb(255, 255, 255) -0.3rem -0.3rem 1rem 5px;
+ }
+ .shareicons{
+     margin-top: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .thankmsg{
+    font-size: 20px;
+    font-family: Gotham-Medium, Gotham;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #193566;
+ }
+ .outertick{
+     display:flex;
+     flex-direction: row;
+     position: absolute;
+     top: 70%;
+ }
+ .rheader1{
+     display: grid;
+     justify-items: center;
+ }
+ .makeroundShadow{
+     box-shadow:  inset rgb(255 255 255) -0.6rem -0.6rem 3rem 0px, inset rgb(0 0 0 / 38%) 0.3rem 0.3rem 1rem 2px;
+     border-radius: 50%;
+     width: 140px;
+     height: 140px;
+ }
+ hr{
+     margin: 0.1rem !important;
+ }
+ .progressbar1{
+    width: 23px;
+    height: 6px;
+    background: #193566;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+ .progressbar2{
+    width: 23px;
+    height: 8px;
+    border: 0.2px solid rgb(185, 224, 241);
+    box-shadow:  inset rgb(255 255 255) -0.6rem -0.6rem 3rem 0px, inset rgb(0 0 0 / 38%) 0.3rem 0.3rem 1rem 2px;
+ }
+ .progressbar3{
+    width: 23px;
+    height: 8px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.2px solid rgb(185, 224, 241);
+    box-shadow:  inset rgb(255 255 255) -0.6rem -0.6rem 3rem 0px, inset rgb(0 0 0 / 38%) 0.3rem 0.3rem 1rem 2px;
+ }
+ .progressbar4{
+    width: 23px;
+    height: 6px;
+    background: #193566;
+ }
+ .progressbar5{
+    width: 23px;
+    height: 6px;
+    background: #193566;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+ .progressbar{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 30px;
+ }
+ .thankyoumsg{
+     margin-top: -40px;
+ }
+ .ticketnumber{
+    font-family: Gotham-Medium, Gotham;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ecf0f3;
+    background-color: #97a7c3;
+    padding: 0px 25px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    margin-top: 20px;
+    padding-bottom: 3px;
+ }
+ .ymname{
+    font-size: 10px;
+    font-family: Montserrat-Bold, Montserrat;
+    font-weight: 700 !important;
+    letter-spacing: 0.109rem;
+    color: #021a46;
+ }
+ .allicons{
+     margin-right: 20px;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+ }
+ #unVerify{
+     display: none;
+ }

@@ -1,0 +1,31 @@
+[
+    {
+        "Date": "01",
+        "month": "Mar",
+        "class": "rotate",
+        "Title": "Workshop with Vania",
+        "desc": "We all know 3D printing is the future of technology. This workshop is a head-start for anyone willing to stay ahead. You’ll learn about 3D printing in details through interactive sessions with Vania, and our expert.",
+        "img": "image/workshop 1.png",
+        "views": 23,
+        "link":"https://zfrmz.in/RHMzgGmWCoIukW5h1xBz"
+        
+    },
+    {
+        "Date": "01",
+        "month": "Mar",
+        "Title": "Maths for Everyone",
+        "desc": "Taking the first step towards equal access to quality education. These workshops are organised by our experts for all who are williing to learn.",
+        "img": "image/workshop 2.png",
+        "views": 23,
+        "link":"https://zfrmz.in/SrIFUQ9dIEPSAIJQCQDO"
+    },
+    {
+        "Date": "01",
+        "month": "Mar",
+        "Title": "ChessCon",
+        "desc":"Pattern recognition and logic are two of the most important elements in our day to day life .What’s better way to master them than playing chess?",
+        "img": "image/workshop 3.png",
+        "views": 23,
+        "link":"https://zfrmz.in/Ljb19oWBNWAWQh5fAvl0"
+    }
+]

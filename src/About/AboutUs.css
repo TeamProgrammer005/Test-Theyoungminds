@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    background: #e5e5e59c;
+    font-family: sans-serif;
+}
+.utility{
+    cursor: pointer;
+    color:#193566
+}
+.aboutDOM{
+    width: 100vw;
+    max-width: 600px;
+}
+.introductionAbout{
+    width: 100%;
+    height: auto;
+}
+
+.introductionAbout span{
+    color: #97A7C3;
+    margin: 0 50px;
+}
+
+ .wordFromYoungMinds h2, .answer h2, .testimonials h2, .knowUs h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #193566;
+    display: inline;
+    position: relative;
+}
+.knowUs h2{
+    margin-left: 20px;
+}
+.wordFromYoungMinds h2::before, .answer h2::before, .testimonials h2::before, .knowUs h2::before{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    right: 0;
+    transform: skewX(20deg);
+    width: 40%;
+    border-radius: 10px;
+    background: #97A7C3;
+    opacity: 0.2;
+    z-index: 0;
+}
+.testimonials h2::before{
+    height: 20%;
+}
+ .wordFromYoungMinds h4{
+    font-size: 12px;
+}
+.qualityEducation{
+    width: 100vw;
+    max-width: 1200px;
+}
+.qualityEducation{
+    display: flex;
+    justify-content: space-evenly;
+}
+.qualityEducation .psuedoBg{
+ position: relative;
+ max-width: 180px;
+ padding: 10px;
+}
+/* .psuedoBg::before{
+    content: "";
+    position: absolute;
+    background: url('/public/image/aboutBg.png') no-repeat center center/cover;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+} */
+.qualityEducation .educationListDOM{
+    width: auto;
+    padding-bottom: 0;
+    border-radius: 12px;
+    height: auto;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.listHeading h4{
+    font-size: 11px
+}
+.listHeading h3{
+    font-size: 12px;
+}
+.educationListDOM .listUpperNav{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+.educationListDOM .rotation{
+    height: auto;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+    transform: none;
+}
+.listUpperNav img{
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.educationListDOM .listHeading{
+    color: #193566;
+    padding-bottom: 10px;
+    transform: rotate(-90deg);
+    transition: 1s ease;
+}
+.educationListDOM .rotateHead {
+    transform: rotate(0deg);
+}
+.educationListDOM .toggleList{
+    display: none;
+    color: #193566;
+    margin: 10px 0;
+}
+.educationListDOM .toggleList li{
+    list-style: none;
+    font-size: 10px;
+     line-height: 16px;
+}
+.educationListDOM .changeDisplay{
+    display: block;
+    transition: 1s ease;
+}
+.wordFromYoungMinds{
+    color:#193566 ;
+    background: linear-gradient(180deg, rgba(151, 167, 195, 0.3012) 0%, rgba(96, 113, 143, 0) 95.69%);
+  padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.something{
+    display: flex;
+    max-width: 1000px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    transition: all 1s ease;
+    opacity: 0;
+    transform: translateX(-30%);
+}
+.current{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  .something .thoughts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+.something .thoughts p{
+    color: #193566cb;
+    max-width: 500px;
+    font-size: 12px;
+    margin: 15px 20px 20px 0;
+}
+.thoughts .socialMediaIcons{
+    display: flex ;
+    justify-content: flex-start;
+}
+.thoughts .socialMediaIcons li{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    background: #ECF0F3;
+    margin-right: 15px;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 50%;
+}
+.thoughts .socialMediaIcons li:hover{
+    box-shadow: inset -2px -2px 6px #FFFFFF, inset 2px 2px 3px rgba(151, 167, 195, 0.5);
+}
+.presidentDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.presidentDetails .imgBox{
+    height: 120px;
+    margin: 10px 0;
+    margin-right: 20px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.presidentDetails .imgBox img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.presidentDetails h3{
+    font-size: 12px;
+    margin-right: 20px;
+    line-height: 28px;
+    color: #193566;
+}
+.presidentDetails span{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #8A9BBD; ;
+    text-align: center;
+    margin-right: 70px;
+}
+.btnDOM, .testBtnDOM{
+    display: flex;
+    justify-content: center;
+  }
+.btnDOM .btn ,.testBtnDOM .btn{ 
+    box-shadow: inset -2px -2px 6px #FFFFFF, inset 2px 2px 3px rgba(151, 167, 195, 0.5);
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+.btnDOM .active, .testBtnDOM .active{
+    box-shadow: 0px -4px 4px #FFFFFF, 0px 4px 4px rgba(151, 167, 195, 0.5);
+    background: #193566;
+    border: 2px solid white;
+}
+ .answer{
+    margin-left: 20px;
+}
+.answer .answerContainer{
+    display: flex;
+   margin-right: 20px;
+    justify-content: space-between;
+}
+.answer .answerContainer img{
+    width: 60px;
+}
+.answer .ourStatement{
+    display: grid;
+}
+.ourStatement .statement{
+    width: 80%;
+    display: grid;
+    margin: 30px 0;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.statement p{
+    width: 90%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #193566;
+}
+.whyYoungMind .answer h2, .testimonials h2{
+    padding-top: 30px;
+    letter-spacing: 0.03rem;
+    margin-left: 20px;
+    color: #193566;
+}
+.answer .logo{
+    display: grid;
+    place-items: center;
+}
+.answer .logo img{
+    width: 120px;
+    height: 110px;
+    margin-top: 40px;
+}
+.answer .logo p{  
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    color: #193566cb;
+}
+.whyYoungMind .studentCount{
+    display: flex;
+    justify-content: space-evenly;
+}
+.studentCount .empty, .reviews .empty, .newReview .empty{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.newReview .empty{
+    width: 80px;
+    height: 80px;
+}
+.studentCount .student h2{
+    font-size: 18px;
+    text-align: center;
+    color: #193566;
+    margin-top: 10px;
+}
+.studentCount .student h3{
+    font-size: 13px;
+    text-align: center;
+    color: #193566;
+}
+.testimonials{
+    margin-top: 70px;
+    position: relative;
+}
+.testimonials span{
+    font-size: 12px;
+    color: #97A7C3;
+    margin-left: 20px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.detail span{
+    margin:0;
+}
+.reviews .profile, .newReview .profile{
+    display: grid;
+    place-items: center;
+}
+.reviews .profile i, .newReview .profile i{
+    font-size: 25px;
+}
+.reviews .detail h4, .newReview .detail h4,.answer h4{
+    margin-top: 10px;
+    color: #193566;
+    font-size: 12px;
+}
+.newReview .detail h4{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.rating{
+    display: flex;
+}
+.fa-star{
+    margin: 3px;
+    margin-left: 0;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.reviewsBox{
+    display: grid;
+    place-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.testimonials .reviews{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 290px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0;
+    transform: translateX(-20%);
+    transition: all 1s ease;
+    opacity: 0;
+}
+.newReviewsBox .newReview{
+    min-width: 400px;
+     max-width: 550px;
+    flex-wrap: wrap;
+    height: auto;
+    border-radius: 10px;  
+    margin: 30px 20px;
+    transition: 1s ease;
+    opacity: 0;
+    display: none;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+}
+.newReviewsBox .newReviewTest{
+    padding: 20px;
+    display: flex;
+    animation: testingReview 1s;
+    opacity: 1;
+    animation-iteration-count: 1;
+}
+@keyframes testingReview {
+    0%{
+        transform: translateX(30%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.newReviewsBox{
+    width: 100vw;
+    display: none;
+    max-width: 1200px;
+    overflow-x: scroll;
+}
+.testimonials .present{
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    transform: translateX(0%);
+    opacity: 1;
+}
+.testimonials .reviews p, .newReview p{
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 138.31%;
+    color: #193566;
+}
+.testimonials .reviews p{
+    text-align: left;
+}
+.newReview p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.testimonials {
+width: 100vw;
+max-width: 1200px;
+}
+.Deskicons{
+    display: flex;
+    width: 30%;
+    transform: translateY(20px);
+    justify-content: space-between;
+    margin: auto;
+}
+.Deskicons i{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+.testimonials .icons{
+    position: absolute;
+    top: 60%;
+    display: flex;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 3;
+    justify-content: space-between;
+}
+.testimonials .icons i{
+    margin: 0 2%;
+    display: grid;
+    color: #193566;
+    place-items: center;
+    height: 30px;
+    font-size: 20px;
+    width: 30px;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.testimonials .icons i:hover, .Deskicons i:hover{
+    box-shadow: inset -2px -2px 6px #FFFFFF, inset 2px 2px 3px rgba(151, 167, 195, 0.5); 
+}
+.knowUs{
+    margin-top: 30px;
+}
+.knowUs p{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #193566;
+}
+.join_us_setion{
+    display: grid;
+    margin: 40px 20px;
+    place-items: center;
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.join_us_setion .getToKnowUs{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+}
+.join_us_setion .getToKnowUs img{
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.join_our_community{
+    display: grid;
+    place-items: center;
+}
+.join_our_community button{
+    background: #193566;
+    color: #ECF0F3;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 380px){
+    .join_us_setion .getToKnowUs{
+        width: 40px;
+        height: 40px;
+    }
+    .something .thoughts p{
+        margin: 15px 4px 10px 0;
+        font-size: 11px;
+    }
+    .navigation ul li{
+        font-size: 16px;
+    }
+    .presidentDetails .imgBox{
+        margin-right: 5px;
+    }
+    .presidentDetails h3{
+        margin-right: 5px;
+    }
+}

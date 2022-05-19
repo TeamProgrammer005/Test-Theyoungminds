@@ -1,0 +1,138 @@
+.navigation{
+    max-width: 1200px;
+    width: 100vw;
+    margin-top: 10px;
+}
+.navigation .topNav{
+    color: #193566;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navigation .topNav li img{
+    width: 120px;
+    height: 100px;
+}
+ .navigation .topNav li h2{
+    font-weight: 700;
+    letter-spacing: 0.03em;
+ }
+ .navigation .mainNav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+.navigation .mainNav li{
+    padding-bottom: 5px;
+}
+.navigation .mainNav li a{
+    text-decoration: none;
+    color: #193566;
+    margin: 0 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navigation .mainNav .active{
+    padding-bottom: 5px;
+    border-bottom: 4px solid #193566;
+}
+.mobileNav .active{
+    padding-top: 20px;
+    border-top: 3px solid #193566;
+}
+.navigation .navblank{
+    width: 80%;
+    margin: auto;
+    height: 0;
+    border: 0.5px solid #97A7C3;
+}
+.mobile_nav{
+    color: #193566;
+    display: none;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.mobileRouting{
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    display: none;
+    z-index: 10;
+    place-items: center;
+    left: 0;
+    bottom: 0;
+    background: #ECF0F3;
+    box-shadow: -4px -4px 4px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.mobileRouting .mobileNav{
+   margin: 0 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.mobileRouting .mobileNav li{
+    cursor: pointer;
+    list-style: none;
+}
+.mobileRouting .mobileNav li a{
+    color: #193566;
+    cursor: pointer;
+    text-decoration: none;
+    width: 40px;
+    font-size: 150%;
+}
+.mobile_nav ul{
+    display: flex;
+    list-style: none;
+}
+.mobile_nav ul li i{
+    font-size: 20px;
+}
+.mobile_nav ul img{
+    height: 50px;
+    width: 50px;
+}
+.mobile_nav ul li h2{
+    margin-top: 5px;
+}
+.mobile_nav ul li{
+    margin-right: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    align-items: center;
+}
+@media  screen and (max-width: 700px) {
+    .navigation{
+        display: none;
+    }
+    .mobile_nav{
+        display: flex;
+    }
+    .mobileRouting{
+        display: grid;
+    }
+}
+@media  screen and (max-width: 700px){
+    .mobileRouting .mobileNav li a{
+        font-size: 100%;
+    }
+}
+@media  screen and (max-width: 360px){
+    .mobile_nav ul li{
+        font-size: medium;
+        margin: 0 10px;
+    }
+}
+@media  screen and (max-width: 320px){
+    .mobile_nav ul li{
+        font-size: small;
+        margin: 0 10px;
+    }
+}

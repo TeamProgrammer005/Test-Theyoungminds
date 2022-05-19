@@ -1,0 +1,74 @@
+[
+    {
+        "id":"54fby89nb67fim89u",
+        "materialsValueName":[
+            {
+                "id":"78gyuh767tg54y6u",
+                "name":"ABS (Acrylonitrile Butadiene Styrene)"
+            },
+            {
+                "id":"78gyuh652tg54k6u",
+                "name":"PLA (Polylactic acid)"
+            },
+            {
+                "id":"78gyuh412ig54y6u",
+                "name":"PC (Polycarbonate)"
+            },
+            {
+                "id":"78gyuh766jg54y6u",
+                "name":"Nylon"
+            },
+            {
+                "id":"78gyuh7ty7tg54y6u",
+                "name":"LayWood"
+            },
+            {
+                "id":"78gyuhjk7ghgg54y6u",
+                "name":"BendLAY"
+            },
+            {
+                "id":"78gyu887k7tg54y6u",
+                "name":"TPE (Thermoplastic elastomer)"
+            },
+            {
+                "id":"78gyjkjk7tg54y6u",
+                "name":"SoftPLA"
+            },
+            {
+                "id":"78gyjkjk752tg54y6u",
+                "name":"HIPS (High-impact Polystyrene)"
+            }
+            
+        ],
+        "materialsValueColor":[
+            {
+                "id":"uiuyobkj8jyo7",
+                "colorValue":"#669ABE"
+            },
+            {
+                "id":"uiargvkifew9y0",
+                "colorValue":"#1E8449 "
+            },
+            {
+                "id":"areuhgbmnlfbhtp[k",
+                "colorValue":"#3498DB"
+            },
+            {
+                "id":"g78wt484eg35",
+                "colorValue":"#F7DC6F"
+            },
+            {
+                "id":"v785tp897348903",
+                "colorValue":"#283747"
+            },
+            {
+                "id":"gr87t367hhil8o7",
+                "colorValue":"#943126"
+            },
+            {
+                "id":"pojgvo9fwu8r3095u",
+                "colorValue":"#5B2C6F"
+            }
+        ]
+    }
+]

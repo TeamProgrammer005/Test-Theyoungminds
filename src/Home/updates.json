@@ -1,0 +1,39 @@
+[
+    {
+        
+        "name": "Aanchal Gupta",
+        "designation":"Graphic Designer",
+        "desc": "In my view, there is an urgent need to ensure inclusive and equitable quality education and promote lifelong opportunities for all. At Young Minds we believe we can help discover desired lessons and wide-ranging activities and materials. All designed to motivate young people and inspire them to become informed and active citizens.",
+        "img": "image/aanchal.jpg",
+        "slide": 1,
+        "time": "21 hours ago"
+        
+    },
+    {
+  
+        "name": "Gulafsan Saheen",
+        "designation":"Graphic Designer",
+        "img": "image/gulafsan.jpg",
+        "slide": 1,
+        "desc": "THE YOUNG MINDS provides an exciting chance in reshaping the dialogue about the 'environment' that brings all socio-political viewpoints to the same table, with common goals for a sustainable future, and accelerate solutions through innovation. Just in love with the community!",
+        "time": "21 hours ago"
+    },
+    {
+
+        "name": "Inish Bhadra",
+        "designation":"Developer",
+        "img": "image/inish.jpg",
+        "slide": 2,
+        "desc": "With The Young Minds, I'm learning a lot things. This is not only a company, it is a platform for all who really achive a goal or education, lessons. Now this community becomes my inspiration, motivation, happiness and I really enjoy and loving it very much.",
+        "time": "21 hours ago"
+    },
+    {
+  
+        "name": "Harsh Singh",
+        "designation":"Developer",
+        "img": "image/harsh.jpg",
+        "slide": 2,
+        "desc": "As we know , A strong community can make good changes, So that 'THE YOUNG MINDS' are aiming to build a Good Community in global sustainable development, where we worked together to make impossible possible and learn equitable quality education.",
+        "time": "21 hours ago"
+    }
+]

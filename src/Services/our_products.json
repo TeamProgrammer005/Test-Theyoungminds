@@ -1,0 +1,52 @@
+[
+    {
+        "title": "The Young Minds Garage",
+        "name": "lamp shade",
+        "price": 20,
+        "slider": 1,
+        "img": "products/lamp_shade.png",
+        "link":"/"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "eiffel tower",
+        "price": 20,
+        "slider": 1,
+        "img": "products/eiffel_tower.png",
+        "link":"/"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "mandalorian",
+        "price": 20,
+        "slider": 1,
+        "img": "products/mandalorian.png",
+        "link":"/"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "marvel wall hanging",
+        "price": 20,
+        "slider": 2,
+        "img": "products/marvel_wall_hanging.png",
+        "link":"/"
+
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "flower vase",
+        "price": 20,
+        "slider": 2,
+        "img": "products/vase.png",
+        "link":"/"
+    },
+    {
+        "title": "The Young Minds Garage",
+        "name": "Sword Pen",
+        "price": 20,
+        "slider": 2,
+        "img": "products/sword_pen-1.jpg",
+        "link":"/"
+    }
+   
+]

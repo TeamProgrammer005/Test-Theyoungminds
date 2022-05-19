@@ -1,0 +1,283 @@
+.storeDOM{
+    width: 100vw;
+    max-width: 1200px;
+}
+.store_featured{
+    margin-top: 30px;
+}
+.featured_nav .nav_heading h4, .store_categories h4, .featured_story h4{ 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 20px;
+    line-height: 93.9%;
+    color: #193566;
+    margin-top: 30px;
+}
+.let_me_try{
+    display: inline;
+    position: relative;
+}
+.let_me_try ::before{
+    content: "";
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+    height: 40%;
+    transform: skewX(20deg);
+    width: 50%;
+    border-radius: 10px;
+    background: #97A7C3;
+    opacity: 0.3;
+    z-index: 1;
+}
+.featured_nav .nav_heading h2, .store_categories h2, .featured_story h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 110%;
+    margin-left: 20px;
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+    color: #193566;
+}
+.featured_nav .nav_heading h2::before, .store_categories h2::before, .featured_story h2::before{
+    content: "";
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+    height: 40%;
+    transform: skewX(20deg);
+    width: 50%;
+    border-radius: 10px;
+    background: #97A7C3;
+    opacity: 0.2;
+    z-index: 0;
+}
+.side_icons{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.side_icons i{
+    font-size: 30px;
+}
+.store_products, .categories_DOM{
+    display: flex;
+    overflow-x: scroll;
+}
+.store_products .store-product_details{
+    min-width: 350px;
+    max-width: 350px;
+    margin: 20px;
+    height: auto;
+    max-height: 420px;
+    text-decoration: none;
+    display: none;
+    background-color: #193566;
+    transition: 1s ease;
+    position: relative;
+    opacity: 0;
+    border-radius: 14px;
+    position: relative;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px 0px 8px #FFFFFF;
+}
+
+.store_products .productSlide{
+    opacity: 1;
+    display: block;
+    animation: productSlide 1s;
+    animation-iteration-count: 1;
+}
+@keyframes productSlide {
+    0%{
+        transform: translateX(30%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.store_products .store-product_details::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 60%;
+    border-radius: 0 0 14px 14px;
+    background: #193566;
+    z-index: -1;
+    opacity: 1;
+}
+.store-product_details .productIMG{
+    width: 100%;
+    height: 72%;
+}
+.store_products .store-product_details .productIMG img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px 14px 0 0;
+}
+.store-product_details .product_desc{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #FFFFFF;
+}
+.product_desc h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.store-product_details h6{
+    color: #FFFFFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.product_carting{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    color: #193566;
+}
+.product_carting i{
+    cursor: pointer;
+    margin: 0 10px;
+}
+.categories_DOM{
+    /* margin-bottom: 50px; */
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-evenly;
+}
+.categories_DOM .categories_box{
+    min-width: 250px;
+    width: 250px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: grid;
+    place-items: center;
+    height: 300px;
+    position: relative;
+    border-radius: 14px;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px 0px 8px #FFFFFF;
+}
+.categories_DOM .categories_box::after{
+    content: "";
+    position: absolute;
+    bottom: -5%;
+    width: 90%;
+    height: 18px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px 0px 8px #FFFFFF;
+}
+.categories_DOM .categories_box::before{
+    content: "";
+    position: absolute;
+    bottom: -10.5%;
+    width: 80%;
+    height: 18px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px 0px 8px #FFFFFF;
+}
+.categories_box h4{
+    color: #193566;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.categories_box img{
+    width: 80%;
+    height: 60% !important;
+    border-radius: 12px;
+}
+.categories_box .navButton{
+    background: #ECF0F3;
+    transform: translateY(200%);
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    border-radius: 20px;
+    background: #193566;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+.categories_box .navButton button{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background: transparent;
+    color: #ECF0F3;
+    cursor: pointer;
+}
+.featured_story{
+    padding-top: 20px;
+    background: linear-gradient(180deg, rgba(151, 167, 195, 0.3012) 0%, rgba(96, 113, 143, 0) 95.69%);
+}
+.stories-intro{
+    display: flex;
+    justify-content: space-between;
+    min-height: 270px;
+    margin: 0 20px;
+}
+.stories-intro .story-teller{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+    color: #193566;
+}
+.stories-intro .story-teller h4{
+    text-transform: uppercase;
+    font-size: 23px;
+    margin: 20px 0;
+}
+.stories-intro .story-teller p{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px
+}
+.stories-intro .story-teller h5{
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.stories-intro .story-teller i{
+    font-size: 20px;
+}
+.stories-frame{
+    width: 50%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.stories-frame .stroy{
+    background: #ECF0F3;
+    box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
+    border-radius: 12px;
+    height: auto;
+}
+.stories-frame .story1{
+    grid-row: 1/-1;
+    display: grid;
+    place-items: center;
+}
+.stories-frame .story1 img{
+    width: 100%;
+    height: 80%;
+    border-radius: 12px
+}
+.stories-frame .story2 img{
+    width: 98%;
+    height: 70%;
+}

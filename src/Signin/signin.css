@@ -1,0 +1,192 @@
+.signinform{
+
+}
+.signintext{
+    display: flex;
+    margin-left: 10%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #193566;
+    margin-bottom: 6%;
+}
+.inputtext{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+}
+.inputtext input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: rgba(151, 167, 195, 1);
+    padding-left: 25px;
+    width: 85%;
+    background-color: #ecf0f3;
+}
+.inputtext input:focus{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: rgba(25, 53, 102, 1);
+    outline: none;
+}
+.errorMsg{
+    display: flex;
+    margin-left: 10%;
+    color: red;
+    position: absolute;
+    padding: 0px;
+}
+.submitbutton{
+    width:80%;
+    background-color: rgba(25, 53, 102, 1);
+    color: #ecf0f3;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 500px;
+    height: 42px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.othersignintext,.forgetpasswordtext{
+    color: rgba(151, 167, 195, 1);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 6%;
+}
+.forgetpasswordtext{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.matchpassword{
+    margin-bottom: 10%;
+    color: red;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.socialmedialinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+.icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: rgba(236, 240, 243, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.googleicon{
+    width: 108px;
+    height: 42px;
+    background: #ECF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+    border-radius: 50px;
+}
+.google{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #193566;
+    margin-left: 4px;
+}
+.footertext{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #97A7C3;
+    margin-top: 12%;
+}
+.signuptext{
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #193566;
+}
+::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #97A7C3;
+}
+.authtype{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+}
+.isemail,.isphone{
+    border-bottom: 1px solid #193566;
+    color: #193566;
+}
+.isnotemail,.isnotphone{
+    color: #97A7C3;
+    border-bottom: none;
+}
+.coloradded{
+    color: #ecf0f3 !important;
+    padding: 10px 130px;
+}
+.loadingbar{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupbackbtn{
+    display: flex;
+    margin-left: 8%;
+    width: 24px;
+    height: 24px;
+    background: #ECF0F3;
+    box-shadow: -4px -4px 8px #ffffff, 4px 4px 8px rgb(151 167 195 / 50%);
+    border-radius: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+
+}
+@media (min-width:460px){
+    .signinform{
+        max-width: 460px;
+    }
+    .registrationwrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .inputtext{
+        width: 100%;
+    }
+    .submitbutton{
+        width: 100%;
+    }
+    .signupbackbtn{
+        display: none;
+    }
+}

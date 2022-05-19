@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "621cbdcba6e214c0a0ab2a54",
+        "typeName": "High Standard",
+        "inFill": "100",
+        "layerHight": "0.40",
+        "supportRemoval": "supportRemoval",
+        "vaporPolishing": "vaporPolishing",
+        "multi": 13,
+        "plus": 500,
+        "__v": 0
+    },
+    {
+        "_id": "621cbe33a6e214c0a0ab2a56",
+        "typeName": "Standard",
+        "inFill": "55",
+        "layerHight": "0.25",
+        "supportRemoval": "supportRemoval",
+        "vaporPolishing": "vaporPolishing",
+        "multi": 12,
+        "plus": 500,
+        "__v": 0
+    }
+]

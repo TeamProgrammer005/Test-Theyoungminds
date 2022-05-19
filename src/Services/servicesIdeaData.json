@@ -1,0 +1,47 @@
+[
+    {
+        "number": 1,
+        "title":"Designing",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing design resources and how those at the top of the industry get things done through our podcast, interviews, articles, and live events.",
+        "mobileDesc": "Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing",
+        "outerClass":"khali firstOuterGradiant",
+        "innerClass":"innerKhali firstInnerGradiant",
+        "link": "https://zfrmz.in/VWDWdoAvBNfuUqYCDsbn"
+    },
+    {
+        "number": 2,
+        "title":"modelling",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing design resources and how those at the top of the industry get things done through our podcast, interviews, articles, and live events.",
+        "mobileDesc": "Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing",
+        "outerClass":"khali secondOuterGradiant",
+        "innerClass":"innerKhali secondInnerGradiant",
+        "link": "/3d_design"
+    },
+    {
+        "number": 3,
+        "title":"prototyping",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing design resources and how those at the top of the industry get things done through our podcast, interviews, articles, and live events.",
+        "mobileDesc": "Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing",
+        "outerClass":"khali thirdOuterGradiant",
+        "innerClass":"innerKhali thirdInnerGradiant",
+        "link": "https://zfrmz.in/Zl5ntaHn8nV5dHMVso1k"
+    },
+    {
+        "number": 4,
+        "title":"manufacturing",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing design resources and how those at the top of the industry get things done through our podcast, interviews, articles, and live events.",
+        "mobileDesc": "Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing",
+        "outerClass":"khali fourthOuterGradiant",
+        "innerClass":"innerKhali fourthInnerGradiant",
+        "link": "/order3d"
+    },
+    {  
+        "number": 5,
+        "title":"casting",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing design resources and how those at the top of the industry get things done through our podcast, interviews, articles, and live events.",
+        "mobileDesc": "Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing",
+        "outerClass":"khali fifthOuterGradiant",
+        "innerClass":"innerKhali fifthInnerGradiant",
+        "link": "https://zfrmz.in/4njZEIHZI6FURwSKuBLl"
+    }
+]

@@ -1,0 +1,484 @@
+@media screen and (max-width: 1000px) {
+    .eventDOMDis{
+        display: none !important;
+    }
+    .eventDOM .eventChanges{
+        margin: 20px !important;
+        margin-bottom: 40px!important;
+        max-width: none !important;
+        opacity: 1 !important;
+        display: block !important;
+        padding: 10px !important;
+        padding-bottom: 20px !important;
+    }
+    .updatedDOMDis{
+        display: none !important;
+    }
+    .updatedDOM .fixUpdateUi{
+        padding: 20px;
+        display: block !important;
+    }
+}
+@media screen and (max-width: 855px) {
+    .startYourJourney p, .home_featured .featured_nav p, .updateFromCommunity p, .headingWorkshop p, .upcomingEvents p, .blogsContainer p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .basic_journey::after{   
+        bottom: -6%;
+        height: 16px;
+    }
+    .basic_journey::before{
+        bottom: -11%;
+        height: 16px;
+    }
+    .startYourJourney .topHeading, .category_section .category_nav h2, .home_featured .featured_nav h2, .updateFromCommunity h2, .upcomingEvents h2, .headingWorkshop h2,.discoverSteam h2, .steamCommunity h2, .blogsContainer h2{
+        font-size: 40px;
+    }
+    .basic_journey p{
+        font-size: 12px;
+        margin: 0 7px;
+        line-height: normal;
+    }
+    .basic_journey{
+        height: 270px;
+    }
+    .startYourJourney::after{
+        top: 19%;
+    }
+    .startYourJourney::before{
+        left: 0%;
+       top: 19%;
+       height: 75%;
+    }
+    .basic_journey img{
+        height: 220px;
+    }
+    .basic_journey h2{
+        font-size: 20px;
+        margin:  0 5px;
+    }
+    .basic_journey h3{
+        font-size: 16px;
+        margin:  20px 5px;
+    }
+    .courses .courseDetail{
+        min-width: 400px;
+        max-width: 400px; 
+    }
+    .startYourJourney .categoryDOM{
+        justify-content: space-evenly;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .categoryDOM .categoryIcon{
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+
+    }
+    .categoryDOM .align{
+        margin-left: 0px !important
+    }
+    .journeyCategories p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .categoryIcon i{
+        font-size: 22px;
+    }
+    .headingWorkshop p, .upcomingEvents p{
+        margin-bottom: 20px;
+    }
+    .updatedDOM .updates, .eventDOM .eventDetails{
+        min-width: 400px;
+        max-width: 400px;
+    }
+    .updatedDOM .updates{
+        padding: 0;
+    }
+    .eventDetails .lowerPara {
+        transform: translateY(-30px);
+        font-size: 12px;
+    }
+    .updates_desc p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .basic_journey::after{   
+        bottom: -7%;
+        height: 15px;
+    }
+    .basic_journey::before{
+        bottom: -12%;
+        height: 15px;
+    }
+    .startYourJourney::before{
+        left: 0%;
+       top: 20%;
+       height: 73%;
+    }
+    .eventDetails .lowerPara {
+        bottom: 8%;
+        font-size: 10px;
+    }
+    .startYourJourney h4, .updateFromCommunity h4, .upcomingEvents h4, .headingWorkshop h4,.discoverSteam h4, .steamCommunity h4,.blogsContainer h4{
+        font-size: 16px;
+    }
+    .startYourJourney .topHeading, .category_section .category_nav h2, .home_featured .featured_nav h2, .updateFromCommunity h2, .upcomingEvents h2, .headingWorkshop h2, .discoverSteam h2, .steamCommunity h2, .blogsContainer h2{
+        font-size: 28px;
+    }
+
+  
+    .startYourJourney span{
+        font-size: 15px;
+    }
+   .categoryDOM{
+       margin: 40px 0;
+   }
+   .stepForJourney button, .updateFromCommunity button{
+    padding: 8px 16px;
+    font-size: 12px;
+   }
+   .updateFromCommunity button{
+     top: 10%;
+   }
+    .stepForJourney .stepping{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .category_section .typeOf{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .category_section .typeOf ul{
+        flex-direction: column;
+    }
+    .category_section .typeOf ul li{
+        margin: 10px 20px;
+    }
+    .course-desc p{
+        font-size: 12px;
+    }
+    .courseDetail h4{
+        font-size: 12px;
+    }
+    .basic_journey img{
+        height: 150px;
+    }
+    .basic_journey{
+        width:20%;
+        height: 220px;
+        min-width: 70px;
+    }
+    .basic_journey p{
+        font-size: 10px;
+        margin: 7px 4px;
+        line-height: normal;
+    }
+    .viewAll span{
+        display: none;
+    }
+    .viewAll .fa-chevron-right{
+        display: none;
+    }
+    .socialMediaIcons li{
+        margin: 5px;
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .basic_journey h2{
+        font-size: 16px;
+        margin:  0 5px;
+    }
+    .updatedDOM .updates, .eventDOM .eventDetails,.workshopDOM .workshop-details{
+        min-width: 370px;
+        max-width: 370px;
+    }
+    .workshopDOM .workshop-details{
+        min-width: 320px;
+        max-width: 320px;
+        max-height: 310px;
+    }
+    .eventDOM .eventDetails{
+        max-height: 370px;
+    }
+    .eventTitle span{
+        font-size: 15px;
+    }
+    .eventDetails .eventIMG{
+        height: 65%;
+    }
+    .courses .courseDetail{
+        min-width: 370px;
+        max-width: 370px; 
+    }
+    .basic_journey h3{
+        font-size: 13px;
+        margin:  20px 5px;
+    }
+    .startYourJourney p, .home_featured .featured_nav p, .updateFromCommunity p, .headingWorkshop p, .upcomingEvents p, .blogsContainer p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 5px;
+    }
+    .upcomingEvents p{
+        font-size: 12px;
+    }
+    .basic_journeys_collection{
+        margin-bottom: 40px;
+    }
+    .workshop-details p{
+        display: none;
+    }
+    .stepForJourney button{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 500px){
+    .basic_journey::after{   
+        bottom: -6%;
+        height: 10px;
+    }
+    .basic_journey::before{
+        bottom: -12%;
+        height: 10px;
+    }
+    .startYourJourney::before{
+       top: 22%;
+       height: 70%;
+    }
+    .startYourJourney h4, .updateFromCommunity h4, .upcomingEvents h4, .headingWorkshop h4,.discoverSteam h4, .steamCommunity h4,.blogsContainer h4{
+        font-size: 12px;
+    }
+    .eventDetails .lowerPara {
+        bottom: 3%;
+        font-size: 10px;
+    }
+    .upcomingEvents p{
+        font-size: 12px;
+    }
+.upcomingEvents h4{
+    margin-top: 0;
+    }
+    .headingWorkshop h4{
+        margin-top: 20px;
+    }
+    .startYourJourney .topHeading, .category_section .category_nav h2, .home_featured .featured_nav h2, .updateFromCommunity h2, .upcomingEvents h2, .headingWorkshop h2,.discoverSteam h2, .steamCommunity h2,.blogsContainer h2{
+        font-size: 20px;
+    }
+    .journeyCategories p{
+       margin-top: 10px !important;
+       font-size: 10px;
+    }
+    .updateFromCommunity h2,.startYourJourney .topHeading{
+        margin-bottom: 5px;
+    }
+    .stepForJourney .stepping{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .category_section .category_nav p, .home_featured .featured_nav p, .updateFromCommunity p,.headingWorkshop p{
+        font-size: 12px;
+    }
+    .categoryDOM .categoryIcon{
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        margin: 0;
+    }
+    .eventTitle span{
+        font-size: 12px;
+    }
+    .eventTitle h4{
+        font-size: 15px;
+    }
+    .updates_desc p{
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .stepForJourney button, .updateFromCommunity button{
+        padding: 6px 12px;
+        font-size: 10px;
+       }
+    .categoryIcon i{
+        font-size: 17px;
+    }
+    .startYourJourney .categoryDOM {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .category_nav .viewAll, .featured_nav .viewAll{
+        font-size: 14px;
+        text-align: center;
+    }
+    .startYourJourney span{
+        font-size: 12px;
+    }
+    .basic_journey{
+        height: 180px;
+        }
+    .basic_journey p{
+        font-size: 8px;
+        margin: 7px 4px;
+        line-height: normal;
+    }
+    .basic_journey h2{
+        font-size: 10px;
+        margin:  0 5px;
+    }
+    .basic_journey h3{
+        font-size: 10px;
+        margin:  12px 5px;
+    }
+    .basic_journey img{
+        height: 120px;
+    }
+    .startYourJourney .categoryDOM {
+        justify-content: center;
+        /* min-width: 400px; */
+        /* overflow-x: scroll; */
+        margin-left: 0;
+    }
+    .journeyCategoriesP{
+        max-width: 60px;
+    }
+    .courses .courseDetail{
+        min-width: 340px;
+        max-width: 340px; 
+        min-height: 250px;
+    }
+    .courseDetail .ratingOfCourse{
+        margin: 0 0;
+        margin-left: 50px;
+    }
+    .ratingOfCourse i{
+        font-size: 13px;
+    }
+    .ratingOfCourse span{
+        font-size: 13px;
+    }
+    .category_section .typeOf ul li{
+        margin: 10px 14px;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .updatedDOM .updates, .eventDOM .eventDetails{
+        min-width: 340px;
+        max-width: 340px;
+    }
+    .eventDOM .eventDetails{
+        margin-bottom: 10px;
+        margin-top: 0;
+        max-height: 330px;
+    }
+    .eventTitle h4{
+        margin-top: 10px;
+    }
+    .workshop-details h5{
+        font-size: 16px;
+        margin-top: 40px
+    }
+    .workshopDOM .workshop-details{
+        margin-top: 0;
+    }
+    .workshop-details p{
+        font-size: 10px;
+    }
+    .categoryDOM .align {
+    padding-left: 10px;
+    }
+    .update_intro .intro h6 {
+        font-size: 16px;
+    }   
+    .update_intro .intro span {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px){
+    .startYourJourney::before{
+       top: 24%;
+       height: 70%;
+    }
+    .basic_journey{
+        height: 160px;
+        /* margin: auto 5px; */
+    }
+    .basic_journey p{
+        font-size: 7px;
+        margin: 7px 4px;
+        line-height: normal;
+    }
+    .startYourJourney .categoryDOM{
+        justify-content: none;
+        margin-bottom: 12px;
+    }
+  
+    .journeyCategories p{
+        font-size: 8px;
+    }
+    .stepForJourney .stepping{
+        font-size: 16px;
+    }
+    .basic_journey h2{
+        font-size: 10px;
+        margin:  0 5px;
+    }
+    .eventDuration span{
+        font-size: 10px;
+    }
+    .basic_journey img{
+        height: 100px;
+    }
+    .basic_journey h3{
+        font-size: 8px;
+        margin:  12px 1px;
+    }
+
+    .courses .courseDetail{
+        min-width: 300px;
+        max-width: 300px; 
+    }
+    .categoryDOM .categoryIcon{
+        width: 30px;
+        height: 30px;
+    }
+    .categoryIcon i{
+        font-size: 15px;
+    }
+    .category_section .typeOf ul li{
+        margin: 10px 10px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .updatedDOM .updates, .eventDOM .eventDetails,.workshopDOM .workshop-details{
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 350px){
+    .updatedDOM .updates, .eventDOM .eventDetails,.workshopDOM .workshop-details{
+        min-width: 280px;
+        max-width: 280px;
+    }
+    .courses .courseDetail{
+        min-width: 280px;
+        max-width: 280px; 
+    }
+    .journeyCategories p{
+        font-size: 7px;
+    }
+    .stepForJourney button, .updateFromCommunity button{
+        padding: 4px 8px;
+        font-size: 8px;
+       }
+       .stepForJourney button{
+        margin: 15px;
+    }
+}

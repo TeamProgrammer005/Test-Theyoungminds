@@ -1,0 +1,378 @@
+@media screen and (max-width : 1170px){
+    .outerBox .innerKhali{
+        margin-left: 70px;
+    }
+    .clientImg_container img{
+        height: 180px;
+        width: 180px;
+    }
+ 
+}
+@media screen and (max-width : 1000px){
+    .serviceIdeaSection .khali{
+        height: 170px;
+    }
+    .khali .outerBox{
+        height: 150px;
+    }
+    .outerBox .innerKhali{
+        width: 100px;
+        height: 100px;
+    }
+    .innerBox{
+        width: 80px;
+        height: 80px;
+    }
+    .clientImg_container img{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width : 880px){
+    .outerBox .innerKhali{
+        margin-left: 50px;
+    }
+    .field_expertise .fields h4 {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .field_expertise h3{
+        margin: 10px 0;
+        
+    }
+    .ideas p{
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .ideas button{
+        padding: 8px 26px;
+        margin: 0;
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    .field_expertise .fieldsBox .empty{
+        height: 100px;
+        width: 100px;
+    }
+    .ideas{
+        box-shadow: none;
+    }
+}
+@media screen and (max-width : 800px){
+    .serviceIdeaSection .khali{
+        height: 150px;
+    }
+    .additional_feature{
+        justify-content: flex-start;
+    }
+ 
+    .khali .outerBox{
+        height: 130px;
+    }
+    .innerBox span{
+        font-size: 17px;
+    }
+    .innerBox b{
+        font-size: 24px;
+    }
+    .services_idea h2{
+        font-size: 32px;
+    }
+    .ideas h4, .services_idea h4{
+        font-size: 24px;
+    }
+    .additionalService h2, .field_expertise h2, .our_clients h2, .services_idea h2{
+        font-size: 32px;
+    }
+    .additionalService h4, .field_expertise h4 {
+        font-size: 16px;
+        margin: 16px 20px;
+    }
+    .services_idea h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .field_expertise .fieldsBox h3{
+        font-size: 24px;
+    }
+    .field_expertise .fieldsBox h4{
+        font-size: 18px;
+    }
+    .clientImg_container img{
+        height: 120px;
+        width: 120px;
+    }
+    
+    .our_clients .clients_para{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .subscribe input{
+        width: 50vw;
+        min-width:250px;
+        margin-bottom: 10px;
+    }
+    .field_expertise .fields h4 {
+        font-size: 14px;
+    }
+    .additionalService p, .field_expertise p, .our_clients p{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width : 670px){
+
+
+.additional_feature_section{
+    width: 280px;
+    min-width: 280px;
+}
+    .additionalService h2, .field_expertise h2, .our_clients h2, .services_idea h2{
+        font-size: 28px;
+    }
+    .additionalService h4, .field_expertise h4, .services_idea h4 {
+        font-size: 14px;
+    }
+    .field_expertise .fields h4 {
+        font-size: 12px !important;
+    }
+    .field_expertise h3{
+        font-size: 14px;
+    }
+    .serviceIdeaSection .khali{
+        height: 130px;
+        width: 600px;
+    }
+    .ideas .hideNshowP{
+        display: block;
+        min-width: 400px;
+    }
+    .ideas .showNhide{
+        display: none ;
+    }
+    .khali .outerBox{
+        height: 110px;
+    }
+    .outerBox .innerKhali{
+        margin-left: 40px;
+    }
+    .outerBox .innerKhali{
+        width: 80px;
+        height: 80px;
+    }
+    .innerBox{
+        width: 60px;
+        height: 60px;
+    }
+    .innerBox span{
+        font-size: 14px;
+    }
+    .innerBox b{
+        font-size: 18px;
+    }
+    .ideas h4{
+        margin: 10px 0 !important;
+        font-size: 20px;
+    }
+    .ideas p{
+        font-size: 13px;
+        padding-right: 5px;
+        line-height: 20px;
+    }
+    .field_expertise .fieldsBox .empty{
+        height: 80px;
+        width: 80px;
+    }
+    .field_expertise .fieldsBox h3{
+        font-size: 20px;
+    }
+    .field_expertise .fieldsBox h4{
+        font-size: 16px;
+    }
+    .clientImg_container img{
+        height: 100px;
+        width: 100px;
+    }
+    .our_clients .clients_para{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width : 630px){
+    .ideas .hideNshowP{
+        min-width: 330px;
+    }
+
+}
+@media screen and (max-width : 530px){
+    .additionalService h2, .field_expertise h2, .our_clients h2, .services_idea h2{
+        font-size: 20px;
+    }
+    .additionalService h4, .field_expertise h4{
+        font-size: 12px;
+        margin: 8px 20px;
+    }
+    .services_idea h4{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .serviceIdeaSection .khali{
+        height: 110px;
+        width: 600px;
+        border-radius: 160px;
+    }
+    .field_expertise .fields h4 {
+        font-size: 10px !important;
+    }
+    .field_expertise h3{
+        font-size: 12px;
+    }
+    .ideas{
+        padding: 20px 0;
+    }
+    .ideas .hideNshowP{
+        min-width: 300px;
+    }
+    .khali .outerBox{
+        height: 90px;
+        border-radius: 160px;
+    }
+    .outerBox .innerKhali{
+        margin-left: 40px;
+        width: 65px;
+        height: 65px;
+    }
+    .innerBox{
+        width: 50px;
+        height: 50px;
+    }
+    .innerBox span{
+        font-size: 11px;
+    }
+    .innerBox b{
+        font-size: 15px;
+    }
+    .ideas h4{
+        font-size: 18px;
+        margin: 10px 0 !important;
+    }
+  
+    .ideas p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .additionalService p, .field_expertise p, .our_clients p {
+        font-size: 12px;
+    }
+    .field_expertise .fieldsBox h3{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .field_expertise .fieldsBox h4{
+        font-size: 12px;
+    }
+    .clientImg_container img{
+        height: 70px;
+        width: 70px;
+    }
+    .our_clients .clients_para{
+        line-height: 20px;
+        font-size: 14px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width : 475px){
+
+    .ideas .hideNshowP{
+        min-width: 250px;
+        line-height: 18px;
+    }
+    .ideas button {
+        padding: 7px 24px;
+        font-size: 8px;
+    }
+}
+@media screen and (max-width : 420px){
+    .ideas .hideNshowP{
+        min-width: 230px;
+        line-height: 18px;
+    }
+    .serviceIdeaSection .khali{
+        height: 110px;
+        width: 700px;
+        border-radius: 160px;
+    }
+    .outerBox .innerKhali{
+        width: 55px;
+        height: 55px;
+    }
+    .innerBox{
+        width: 40px;
+        height: 40px;
+    }
+    .innerBox span{
+        font-size: 10px;
+    }
+    .innerBox b{
+        font-size: 13px;
+    }
+    .ideas h4{
+        margin: 10px 0 !important;
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    .ideas p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .field_expertise .fieldsBox .empty{
+        height: 60px;
+        width: 60px;
+        margin: 30px 0 0 10px;
+    }
+    .field_expertise .fieldsBox h3{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .field_expertise .fieldsBox h4{
+        font-size: 9px;
+        font-weight: 0;
+        text-align: center;
+    }
+    .clientImg_container img{
+        height: 50px;
+        width: 50px;
+    }
+    .subscribe{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width : 400px){
+    .ideas .hideNshowP{
+        min-width: 210px;
+        line-height: 18px;
+    }
+    .field_expertise .fields h4 {
+        font-size: 8px !important;
+    }
+    .field_expertise h3{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width : 380px){
+    .ideas .hideNshowP{
+        min-width: 190px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width : 320px){
+    .outerBox .innerKhali{
+        margin-left: 20px;
+    }
+    .field_expertise .fields h4 {
+        font-size: 7px !important;
+    }
+    .field_expertise h3{
+        font-size: 8px;
+    }
+}

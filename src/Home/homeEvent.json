@@ -1,0 +1,40 @@
+[
+    {
+        "Title": "Tete-a-tete",
+        "date": "01",
+        "month": "Mar",
+        "img": "image/tete-a-tete.png",
+        "slide":1,
+        "desc":"Career, Lifecycle and Growth",
+        "link":"https://zfrmz.in/3JKTpB5cVqW70sbZy0iT"
+    },
+    {
+        "Title": "Chess",
+        "date": "01",
+        "month": "Mar",
+        "slide":1,
+        "temp":2,
+        "img": "image/chessCon.png",
+        "desc":"Brain Excercise, Pattern Recognition",
+        "link":"main https://zfrmz.in/anerbc75VWPlt9LlGxzs "
+    },
+    {
+        "Title": "Book Reading",
+        "date": "01",
+        "month": "Mar",
+        "temp":1,
+        "slide":2,
+        "img": "image/event 3.png",
+        "desc":"Brain Excercise, Pattern Recognition",
+        "link":"https://zfrmz.in/XsptwMt6IbrjDlfMm93Y"
+    },
+    {
+        "Title": "Career Consultancy",
+        "date": "01",
+        "slide":2,
+        "month": "Mar",
+        "img": "image/career.png",
+        "desc":"Brain Excercise, Pattern Recognition",
+        "link":"https://zfrmz.in/2GUlCECma8e5ulYnSysH"
+    }
+]

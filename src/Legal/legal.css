@@ -1,0 +1,63 @@
+.privacy_policyDOM, .conditionDOM{
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto;
+    color: #193566;
+}
+.privacy_policyDOM h1, .conditionDOM h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px auto;
+    margin-top: 20px ;
+}
+.privacy_policyDOM span, .conditionDOM span{
+    color: #193566;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30%;
+    margin-top: 20px;
+    box-shadow:-4px -4px 8px #FFFFFF, 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.privacy_policyDOM span:hover, .conditionDOM span:hover{
+    box-shadow: inset -4px -4px 8px #FFFFFF, inset 4px 4px 8px rgba(151, 167, 195, 0.5);
+}
+.privacy_policyDOM p, .conditionDOM p, .conditionDOM ul{
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.conditionDOM ul{
+    margin-left: 100px;
+}
+.conditionDOM ul li{
+    margin-bottom: 10px;
+}
+.privacy_policyDOM h4, .conditionDOM h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 800px){
+    .privacy_policyDOM h1, .conditionDOM h1{
+      font-size: 1.6rem;
+    }
+    .conditionDOM ul{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 600px){
+    .privacy_policyDOM p, .conditionDOM p, .conditionDOM ul{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .conditionDOM ul{
+        margin-left: 50px;
+    }
+    .privacy_policyDOM h1, .conditionDOM h1{
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height: 25px;
+      }
+      .privacy_policyDOM h4, .conditionDOM h4{
+        font-size: 20px;
+    }
+}

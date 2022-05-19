@@ -1,0 +1,30 @@
+[
+    {
+        "number": 1,
+        "title":"AUTOMATION",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing.",
+        "outerClass":"khali firstOuterGradiant",
+        "innerClass":"innerKhali firstInnerGradiant",
+        "img":"image/automation.png",
+        "link":"https://zfrmz.in/SsbZ3dMRAojxvkAaYfxk"
+    },
+    {
+        "number": 2,
+        "title":"ROBOTICS",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing.",
+        "outerClass":"khali secondOuterGradiant",
+        "innerClass":"innerKhali secondInnerGradiant",
+        "img":"image/robotics.png",
+        "link":"https://zfrmz.in/Kjd3nvticUz2kcNLoetC"
+    },
+    {
+        "number": 3,
+        "title":"FIX YOUR PRINTER",
+        "desc":"Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place to find out about amazing.",
+        "outerClass":"khali thirdOuterGradiant",
+        "innerClass":"innerKhali thirdInnerGradiant",
+        "img":"image/printer.png",
+        "link":"/askforrepair"
+    }
+
+]
