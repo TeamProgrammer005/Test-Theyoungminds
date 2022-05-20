@@ -433,7 +433,6 @@ max-width: 1200px;
 .Deskicons{
     display: flex;
     width: 30%;
-    transform: translateY(20px);
     justify-content: space-between;
     margin: auto;
 }
