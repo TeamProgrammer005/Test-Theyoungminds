@@ -15,7 +15,7 @@ import { ReactComponent as DropDownsvg } from './pathT.svg';
 import { postDataFor3D, sendEmail,payment,onSuccessfullPayment,comfermationOfPayment,getSuggention,getMetarialType,getColorType,uploads_file } from '../api';
 import { Modal, Button, Form } from 'react-bootstrap';
 import axios from 'axios';
-import { Link, useHistory } from 'react-router-dom';
+import {  useHistory } from 'react-router-dom';
 import useGAEventsTracker from '../GaEvent/useGAEventsTracker';
 import suggestionArray from './json/suggestoin.json'
 
@@ -829,7 +829,7 @@ const Interface = () => {
             <>
                 <div className='putCenter' >
                     <div className="maintaindisplay">
-                        <div className='fontHeading1'> <Link to='/services' ><BackSvg /></Link> Get&nbsp;started</div>
+                        <div className='fontHeading1'> <a href='/services' ><BackSvg /></a> Get&nbsp;started</div>
                         <hr />
                         <br />
                         <div style={{ paddingBottom: "12px" }} className='fontHeading2'>Upload Your File
@@ -913,9 +913,9 @@ const Interface = () => {
                         </div>
 
                         <div className="d-in any mHeightY-3 clor">
-                            <Link to="/3d_design" className='underline' >
+                            <a href="/3d_design" className='underline' >
                                 I don't have any file.
-                            </Link>
+                            </a>
                             <hr className='routetion' />
                             <button onClick={() => { sendData() }} className="submitAll">
                                 Done
