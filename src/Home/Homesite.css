@@ -313,6 +313,7 @@
 }
 .updatedDOM .changeUpdate{
     display: block;
+    min-height: 350px;
     padding: 20px;
     animation: productSlide 1s;
     animation-iteration-count: 1;
@@ -392,11 +393,12 @@
     border-radius: 50%;
 }
 .update_intro .intro{
-    margin: 20px 0;
+    margin: 20px;
+    margin-left: 20px !important;
     color: #193566;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
 .update_intro .intro h6{
@@ -427,10 +429,12 @@
 }
 .intro , .socialMediaIcons{
     display: flex;
-    justify-content: center;
+    margin-bottom: 0 !important;
+    padding-left: 0!important;
 }
 .socialMediaIcons li{
     margin: 10px;
+    margin-left: 0px;
     list-style: none;
     width: 25px;
     font-size: 16px;
@@ -451,6 +455,7 @@
 }
 .eventDetails .eventIMG{
     width: 100%;
+    min-height: 230px;
     height: 60%;
 }
 .eventDOM .eventDetails .eventIMG img{

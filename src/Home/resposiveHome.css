@@ -212,6 +212,7 @@
     }
     .eventDetails .eventIMG{
         height: 65%;
+        min-height: 220px;
     }
     .courses .courseDetail{
         min-width: 370px;
@@ -240,6 +241,9 @@
     }
 }
 @media screen and (max-width: 500px){
+    .eventDetails .eventIMG{
+        min-height: 190px;
+    }
     .basic_journey::after{   
         bottom: -6%;
         height: 10px;

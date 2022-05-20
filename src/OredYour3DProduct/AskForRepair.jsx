@@ -5,7 +5,7 @@ import { ReactComponent as UploadSvg } from './Group18.svg';
 import { ReactComponent as DeleteSvg } from './deleteIcon.svg';
 import { ReactComponent as EyeSvg } from './eyeIcon.svg';
 import { ReactComponent as BackSvg } from './path.svg';
-import { useHistory, Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import axios from 'axios';
 import useGAEventsTracker from '../GaEvent/useGAEventsTracker';
 import {repair3d,upload_files} from "../api"
@@ -159,7 +159,7 @@ const Askforrepair = () => {
             <>
                 <div className='putCenter'>
                     <div className="maintaindisplay">
-                        <div className='fontHeading1'><Link to='/services' ><BackSvg /></Link>Lets Repair</div>
+                        <div className='fontHeading1'><a href='/services' ><BackSvg /></a>Lets Repair</div>
                         <hr />
                         <br />
 

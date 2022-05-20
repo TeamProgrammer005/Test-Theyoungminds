@@ -64,12 +64,12 @@ export default function Services() {
                     <div className="additional_feature">
                         {additionalServiceData.map((data, index) => {
                             return (              
-                                    <div className='additional_feature_section' key={index}>
+                                    <a className='additional_feature_section' href={data.link} target="_blank" rel="noopener noreferrer" key={index}>
                                         <h4>{data.title}</h4>
                                         <img src={data.img} alt="logo" />
                                         <p>{data.desc}</p>
-                                        <a href={data.link} target="_blank" className='btn_service' rel="noopener noreferrer"><button >Know More</button></a>
-                                    </div>                         
+                                     <button className='btn_service'>Know More</button>
+                                    </a>                         
                             )
                         })}
                     </div>

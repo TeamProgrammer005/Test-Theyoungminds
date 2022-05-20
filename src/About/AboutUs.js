@@ -38,6 +38,13 @@ export default function AboutUs() {
     let listInterval;
     let reviewInterval;
 
+    
+    const prevList = ()=>{
+        setCurrentList(currentList === 0 ? currentListLength - 1 : currentList - 1) 
+    }
+    const prevSlide = ()=>{
+        setCurrentSlide(currentSlide === 0? YMDataLength - 1 : currentSlide - 1)
+    }
     const nextSlide = () => {
         setCurrentSlide(currentSlide === YMDataLength - 1 ? 0 : currentSlide + 1)
         setCurrentName(currentName === "Minds" ? "Leader" : "Minds")
@@ -140,6 +147,10 @@ export default function AboutUs() {
                             )
                         })}
                     </div>
+                    <div className="allIcons utility alliconextra">
+                            <i className="fas fa-chevron-left" onClick={prevList} ></i>
+                            <i className="fas fa-chevron-right" onClick={nextList}></i>
+                        </div>
                             <div className="btnDOM">
                             {Array.from({ length: currentListLength}).map((item, index) => {
                                 return (
@@ -194,6 +205,10 @@ export default function AboutUs() {
                                 </div>
                             )
                         })}
+                          <div className="allIcons utility">
+                            <i className="fas fa-chevron-left" onClick={prevSlide} ></i>
+                            <i className="fas fa-chevron-right" onClick={nextSlide}></i>
+                        </div>
                         <div className="btnDOM">
                             {Array.from({ length: YMDataLength }).map((item, index) => {
                                 return (

@@ -1,12 +1,12 @@
 import React from 'react'
 import "./legal.css"
-import { Link } from 'react-router-dom'
+// import { a } from 'react-router-dom'
 
 export default function Condition() {
     return (
         <div>
             <div className="conditionDOM">
-                 <Link to="/"><span className="fas fa-chevron-left" ></span></Link>
+                 <a href="/"><span className="fas fa-chevron-left" ></span></a>
                 <h1>TERMS OF SERVICE</h1>
                 <p>Please read this terms of service agreement carefully. By using this website or its application
                     from this website you agree to be bound by all of the terms and conditions of this agreement</p>

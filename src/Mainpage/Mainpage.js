@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Mainpage.css"
 import { useState} from 'react'
-import { Link } from 'react-router-dom'
+// import { a} from 'react-router-dom'
 
 export default function Mainpage(props) {
     const toggleDisplay= props.toggleDisplay;
@@ -14,7 +14,7 @@ export default function Mainpage(props) {
     const [linking, setlinking] = useState("services")
     const [disabled, setdisabled] = useState(true)
     const [disabled2, setdisabled2] = useState(false)
-    const toggleLink = (event) => {
+    const toggleLink= (event) => {
         setdisabled(event.target.value === "services" ? true : false)
        setlinking(`/${event.target.value}`)
     }
@@ -60,7 +60,7 @@ export default function Mainpage(props) {
                     </div>
                         <a href= {props.btnLink} target="_blank" rel="noopener noreferrer"><button style={{display:buttonDisplay }} disabled={disabled2 === true}>{props.btnText}</button></a>
 
-                        <Link to= "/homeblog"><button style={{display: homeDisplayBtn }}>Know More</button></Link>
+                        <a href= "/homeblog"><button style={{display: homeDisplayBtn }}>Know More</button></a>
                       
                         <a href= {linking} target="_blank" rel="noopener noreferrer" ><button style={{display:buttonDisplay_store }} disabled={disabled === true } >{props.btnText}</button></a>
                         

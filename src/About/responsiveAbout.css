@@ -18,6 +18,9 @@
 
 }
 @media screen and (min-width: 500px) {
+    .qualityEducation .educationListDOM{
+        min-height: 300px;
+     }
     .something .thoughts p, .statement p{
         font-size: 14px;
         line-height: 20px;
@@ -45,7 +48,20 @@
     }
     
 }
+@media screen and (max-width: 700px){
+    .allIcons{
+        width: 50%;
+    }
+    .allIcons i{
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
 @media screen and (min-width: 600px){
+    .qualityEducation .educationListDOM{
+        min-height: 310px;
+     }
     .join_our_community button{
      font-size: 14px;
     }
@@ -120,6 +136,9 @@
 }
 
 @media screen and (min-width: 750px){
+    .qualityEducation .educationListDOM{
+        min-height: 370px;
+     }
     .join_us_setion{
         margin: 50px auto;
     }
@@ -194,6 +213,9 @@
     
 }
 @media screen and (min-width: 850px){
+    .qualityEducation .educationListDOM{
+        min-height: 430px;
+     }
     .join_our_community button{
         font-size: 16px;
        }
@@ -230,6 +252,9 @@
        }
 }
 @media screen and (min-width: 940px){
+    .qualityEducation .educationListDOM{
+       min-height: 470px;
+    }
     .something .thoughts p{
         max-width: 900px;
         font-size: 22px;
@@ -312,6 +337,9 @@
        }
 }
 @media screen and (max-width: 380px){
+    .qualityEducation .educationListDOM{
+        min-height: 300px;
+     }
     .listHeading h4{
         font-size: 9px
     }

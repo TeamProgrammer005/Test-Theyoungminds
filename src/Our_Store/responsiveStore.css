@@ -18,6 +18,9 @@
     }
 }
 @media screen and (max-width: 855px){
+    .store-product_details .productIMG{
+        min-height: 250px;
+    }
     .featured_nav .nav_heading h4, .store_categories h4, .featured_story h4{
         font-size: 25px;
     }
@@ -82,6 +85,9 @@
     }
     .featured_nav .nav_heading h2, .store_categories h2, .featured_story h2{
         font-size: 20px;
+    }
+    .store-product_details .productIMG{
+        min-height: 210px;
     }
     .store_products .store-product_details{
         min-width: 300px;

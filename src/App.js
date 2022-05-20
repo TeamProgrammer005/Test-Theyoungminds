@@ -10,37 +10,37 @@ import Interface from './OredYour3DProduct/Interface';
 // import WorkShopMore from './WorkShopMore';
 // import Aboutus from "./Aboutus/Aboutus";
 
-import Signin from './Signin/Signin';
-import Signup from './Signin/signup';
+// import Signin from './Signin/Signin';
+// import Signup from './Signin/signup';
 
-import ForgetPassword from './Signin/ForgetPassword';
-import Otpverification from './Signin/Otpverification';
+// import ForgetPassword from './Signin/ForgetPassword';
+// import Otpverification from './Signin/Otpverification';
 import WorkShopRegistration from './Registration/WorkshopRegistration'
 import { BrowserRouter, Route, Switch } from "react-router-dom"
-import ResetPassword from './Signin/ResetPassword';
-import VerifyYourself from './Signin/VerifyYourself';
-import Congratulation from './Signin/Congratulation'
-import Signupverification from "./Signin/signupverification"
-import dashboard from './Dashboard/dashboard';
+// import ResetPassword from './Signin/ResetPassword';
+// import VerifyYourself from './Signin/VerifyYourself';
+// import Congratulation from './Signin/Congratulation'
+// import Signupverification from "./Signin/signupverification"
+// import dashboard from './Dashboard/dashboard';
 // import FooterPopup from './Dashboard/footerPopup';
 // import SignoutPopup from './Dashboard/SignoutPopup';
 // import Invoice from './OredYour3DProduct/InvoicePage'
 
-import Tiket from './OredYour3DProduct/Tiket';
-import Tiket1 from './OredYour3DProduct/Tiket1';
-import Tiket2 from './OredYour3DProduct/Tiket2';
+// import Tiket from './OredYour3DProduct/Tiket';
+// import Tiket1 from './OredYour3DProduct/Tiket1';
+// import Tiket2 from './OredYour3DProduct/Tiket2';
 import AskFor3DFile from './OredYour3DProduct/AskFor3DFile';
-import StartYourJourney from './StartYourJourney/StartYourJourney';
+// import StartYourJourney from './StartYourJourney/StartYourJourney';
 // import Hometemp from './Home/Hometemp';
-import Error from './Signin/Error';
+// import Error from './Signin/Error';
 import {useEffect} from "react"
 
 
-import DashboardHome from './Dashboard/DashboardHome';
+// import DashboardHome from './Dashboard/DashboardHome';
 import ReactGa from "react-ga"
 
 
-import FinalIntro from "./StartYourJourney/finalIntro"
+// import FinalIntro from "./StartYourJourney/finalIntro"
 
 import Askforrepair from './OredYour3DProduct/AskForRepair';
 import Services from './Home/Services';
@@ -49,7 +49,7 @@ import Services from './Home/Services';
 // import Form from './Form/WorkShop_form'
 // import WorkShopMore from './WorkShopMore';
 // import Aboutus from "./Aboutus/Aboutus";
-import Homesite from './Home/Homesite';
+import Home from './Home/Homesite';
 import AboutUs from "./About/AboutUs";
 import Nav from "./Navbar/Nav";
 import Footer from "./Footer/Footer";
@@ -71,7 +71,7 @@ function App() {
       <BrowserRouter>
         <Nav/>
         <Switch>
-            <Route exact path="/" component={Homesite}/>
+            <Route exact path="/" component={Home}/>
             <Route path="/homeblog" component={Homeblog}/>
             <Route path="/about" component={AboutUs}/>
             <Route exact path="/service" component={Service}/>
@@ -88,8 +88,8 @@ function App() {
           <Route exact path="/checkyouorder2/:_id" component={Tiket2} /> */}
           <Route exact path="/3d_design" component={AskFor3DFile} />
           <Route exact path="/askforrepair" component={Askforrepair} />
-          {/* <Route exact path="/enroll" component={WorkShopRegistration} />
-          <Route path="/dashboard" component={dashboard} />
+          <Route exact path="/enroll" component={WorkShopRegistration} />
+          {/* <Route path="/dashboard" component={dashboard} />
           <Route path="/signin" component={Signin} />
           <Route path="/error" component={Error} />
           <Route path="/signup" component={Signup} />

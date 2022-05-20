@@ -1,6 +1,6 @@
 import React from 'react'
 import useGAEventsTracker from '../GaEvent/useGAEventsTracker'
-import { Link,useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 import { IoInformation } from "react-icons/io5"
 import { Carousel } from 'react-bootstrap'
 import {MdOutlineKeyboardArrowLeft} from "react-icons/md"
@@ -17,34 +17,34 @@ const Services = () => {
             </div>
             <div className='container storecontainer'>
                 <div className='storerow1'>
-                    <Link to="/order3d"><Carousel onClick={(e) => { GAEventsTracker("Product Viewed", `productName : "Additive Manufacturing"`); GAEventsTracker("Product Viewed", `productCategory:"YM Services"`) }} interval={null} className="ymservicecarousel" style={{ height: "173px" }}>
+                    <a href="/order3d"><Carousel onClick={(e) => { GAEventsTracker("Product Viewed", `productName : "Additive Manufacturing"`); GAEventsTracker("Product Viewed", `productCategory:"YM Services"`) }} interval={null} className="ymservicecarousel" style={{ height: "173px" }}>
                         <Carousel.Item>
                             <div className='uppertextstore'>
                                 <div className='storeproduct'>ADDITIVE MANUFACTURING</div>
                                 <div className='iobtn'><IoInformation /></div>
                             </div>
                         </Carousel.Item>
-                    </Carousel></Link>
+                    </Carousel></a>
                 </div>
                 <div className='storerow1'>
-                    <Link to="/3d_design"><Carousel onClick={(e) => { GAEventsTracker("Product Viewed", `productName : "3D Modelling"`); GAEventsTracker("Product Viewed", `productCategory:"YM Services"`) }} className="ymservicecarousel" interval={null} style={{ height: "173px" }}>
+                    <a href="/3d_design"><Carousel onClick={(e) => { GAEventsTracker("Product Viewed", `productName : "3D Modelling"`); GAEventsTracker("Product Viewed", `productCategory:"YM Services"`) }} className="ymservicecarousel" interval={null} style={{ height: "173px" }}>
                         <Carousel.Item>
                             <div className='uppertextstore'>
                                 <div className='storeproduct'>3D MODELLING</div>
                                 <div className='iobtn'><IoInformation /></div>
                             </div>
                         </Carousel.Item>
-                    </Carousel></Link>
+                    </Carousel></a>
                 </div>
                 <div className='storerow1 mb-5'>
-                    <Link to="/askforrepair"><Carousel onClick={(e) => { GAEventsTracker("Product Viewed", `productName : "Fix Your Printer"`); GAEventsTracker("Product Viewed", `productCategory:"YM Services"`) }} className="ymservicecarousel" interval={null} style={{ height: "173px" }}>
+                    <a href="/askforrepair"><Carousel onClick={(e) => { GAEventsTracker("Product Viewed", `productName : "Fix Your Printer"`); GAEventsTracker("Product Viewed", `productCategory:"YM Services"`) }} className="ymservicecarousel" interval={null} style={{ height: "173px" }}>
                         <Carousel.Item>
                             <div className='uppertextstore'>
                                 <div className='storeproduct'>FIX YOUR PRINTER</div>
                                 <div className='iobtn'><IoInformation /></div>
                             </div>
                         </Carousel.Item>
-                    </Carousel></Link>
+                    </Carousel></a>
                 </div>
             </div>
         </div>

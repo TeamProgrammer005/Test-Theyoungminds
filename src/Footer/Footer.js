@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footr.css"
-import {Link} from "react-router-dom"
+// import {a} from "react-router-dom"
 
 export default function Footer() {
   return (
@@ -9,12 +9,12 @@ export default function Footer() {
               {/* footer navigation */}
                     <ul className="navigate">
                         <h4>Navigate To</h4>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About Us</Link></li>
-                        <li><Link to="/service">Services</Link></li>
-                        <li><Link to="/privacy_policy" className='toggleGrid'>Privacy Policy</Link></li>
-                        <li className='try'><Link to="/conditions">Terms & Condition</Link></li>
-                        <li className='toggle'><Link to="/conditions">T & C</Link></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/service">Services</a></li>
+                        <li><a href="/privacy_policy" className='toggleGrid'>Privacy Policy</a></li>
+                        <li className='try'><a href="/conditions">Terms & Condition</a></li>
+                        <li className='toggle'><a href="/conditions">T & C</a></li>
                     </ul>
                     {/* Footer intro */}
                     <div className="shortIntro">
@@ -23,7 +23,7 @@ export default function Footer() {
                         <p>Beyond the sense of community and opportunity that we strive to provide, XYZ is also the place .</p>
                     </div>
                     <div className='blankLine'></div>
-                    {/* Social Media Links */}
+                    {/* Social Media as */}
                     <div className="socialMedia">
                         <h4>Follow Us</h4>
                     <ul className='socialMediaIcons'>

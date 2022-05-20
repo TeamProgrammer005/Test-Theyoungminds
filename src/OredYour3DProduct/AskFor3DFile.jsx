@@ -5,7 +5,7 @@ import { ReactComponent as UploadSvg } from './Group18.svg';
 import { ReactComponent as DeleteSvg } from './deleteIcon.svg';
 import { ReactComponent as EyeSvg } from './eyeIcon.svg';
 import { ReactComponent as BackSvg } from './path.svg';
-import { useHistory, Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import axios from 'axios';
 import useGAEventsTracker from '../GaEvent/useGAEventsTracker';
 import {ideaof3d,upload_file} from '../api'
@@ -147,7 +147,7 @@ const AskFor3DFile = () => {
             <>
                 <div className='putCenter'>
                     <div className="maintaindisplay">
-                        <div className='fontHeading1'><Link to='/services' ><BackSvg /></Link>Get&nbsp;started</div>
+                        <div className='fontHeading1'><a href='/services' ><BackSvg /></a>Get&nbsp;started</div>
                         <hr />
                         <br />
 

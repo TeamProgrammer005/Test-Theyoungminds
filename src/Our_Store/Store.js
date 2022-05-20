@@ -102,12 +102,12 @@ export default function Store() {
           <div className="categories_DOM">
             {storeCategory.map((data, index) => {
               return (
-                  <div className='categories_box' key={index}>
+                  <a className='categories_box'href={data.link} target='_blank' rel="noopener noreferrer" key={index}>
                     <h4>{data.title}</h4>
                     <h4>{data.title2}</h4>
                     <img src={data.img} alt="" />
-                    <a href={data.link} className='navButton' target='_blank' rel="noopener noreferrer"><button>Go To</button></a>
-                  </div>
+                    <button className='navButton'>Go To</button>
+                  </a>
               )
             })}
           </div>

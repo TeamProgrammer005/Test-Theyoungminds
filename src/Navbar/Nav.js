@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Nav.css"
-import { NavLink } from "react-router-dom"
+// import { a } from "react-router-dom"
 function Nav() {
 
     return (
@@ -15,11 +15,11 @@ function Nav() {
             {/* Mobile view bottom nav for navigatiom */}
             <div className="mobileRouting">
                 <ul className="mobileNav">
-                <li><NavLink to="/" activelassname='active' exact={true}><i className="fas fa-home "></i></NavLink></li>
-                    <li><NavLink to="/community" activelassname='active'><i className="fas fa-users"></i></NavLink></li>
-                    <li><NavLink to="/service" activeclassname='active'><i className="fas fa-business-time"></i></NavLink></li>
-                    <li><NavLink to="/our_store" activeclassname='active'><i className="fas fa-shopping-bag"></i></NavLink></li>
-                    <li><NavLink to="/about" activeclassname='active'><i className="fas fa-id-badge"></i></NavLink></li>
+                <li><a href="/" activelassname='active' exact={true}><i className="fas fa-home "></i></a></li>
+                    <li><a href="/community" activelassname='active'><i className="fas fa-users"></i></a></li>
+                    <li><a href="/service" activeclassname='active'><i className="fas fa-business-time"></i></a></li>
+                    <li><a href="/our_store" activeclassname='active'><i className="fas fa-shopping-bag"></i></a></li>
+                    <li><a href="/about" activeclassname='active'><i className="fas fa-id-badge"></i></a></li>
                 </ul>
             </div>
             {/* Desktop view for navigation */}
@@ -30,11 +30,11 @@ function Nav() {
                     <li></li>
                 </ul>
                 <ul className='mainNav'>
-                    <li><NavLink to="/" activelassname='active' exact={true} >Home</NavLink></li>
-                    <li><NavLink to="/community" activelassname='active'>Our Community</NavLink></li>
-                    <li><NavLink to="/service" activeclassname='active'>Services</NavLink></li>
-                    <li><NavLink to="/our_store" activeclassname='active'>Our Store</NavLink></li>
-                    <li><NavLink to="/about" activeclassname='active'>About Us</NavLink></li>
+                    <li><a href="/" activelassname='active' exact={true} >Home</a></li>
+                    <li><a href="/community" activelassname='active'>Our Community</a></li>
+                    <li><a href="/service" activeclassname='active'>Services</a></li>
+                    <li><a href="/our_store" activeclassname='active'>Our Store</a></li>
+                    <li><a href="/about" activeclassname='active'>About Us</a></li>
                 </ul>
                 <div className='navblank'></div>
             </div>

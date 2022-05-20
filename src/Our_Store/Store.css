@@ -112,6 +112,8 @@
 }
 .store-product_details .productIMG{
     width: 100%;
+    min-height: 300px;
+    background-color: #ECF0F3;
     height: 72%;
 }
 .store_products .store-product_details .productIMG img{
@@ -165,9 +167,11 @@
     width: 250px;
     margin: 20px;
     margin-top: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     display: grid;
     place-items: center;
+    text-decoration: none;
+    color: #193566;
     height: 300px;
     position: relative;
     border-radius: 14px;
@@ -203,13 +207,13 @@
 }
 .categories_box .navButton{
     background: #ECF0F3;
-    transform: translateY(200%);
+    transform: translateY(100%);
     cursor: pointer;
     box-shadow: 4px 4px 8px rgba(151, 167, 195, 0.5), -4px -4px 8px #FFFFFF;
     border-radius: 20px;
     background: #193566;
+    color: #ECF0F3;
     padding: 10px 30px;
-    margin-bottom: 40px;
 }
 .categories_box .navButton button{
     border: none;
